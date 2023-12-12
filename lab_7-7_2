@@ -1,0 +1,21 @@
+#Authur: Mason Andrews
+def greeting():
+    """
+    This function prints "Hello World" on one line.
+    """
+    print("Hello World!")
+
+    return greeting.__doc__
+
+greeting_result = greeting()
+print("Returned Docstring:", greeting_result)
+# lab_7-2.py
+
+def find_sum(num1, num2):
+    num_sum = num1 + num2
+    
+    return num_sum
+
+my_sum = find_sum(111, 222)
+
+print("The sum is:", my_sum)
